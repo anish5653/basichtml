@@ -4,8 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/5e58b64246.js" crossorigin="anonymous"></script>
+    <style>
+       .header {
+        display: flex;
+        background-color: gray;
+        justify-content: end;
+        padding: 5px;
+        width: 100%;
+        }
+        .navtag{
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .main{   
+            width: 100%;
+            background-color: rgb(77, 75, 75);
+            padding: 25px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            border-radius: 20px;
+            width: 100px;
+            background-color: rgba(158, 154, 154, 0.488);
+            border-color: white;
+            color: white;
+            border:1px solid;
+            margin: 5px;
+            padding: 5px;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+        .main-img{
+            margin:-24PX;
+
+        }
+        .main-link{
+            display: flexbox;
+            margin: 10px;
+        }
+        .footer{
+            background-color: black;
+            padding:1px;
+            color: white;
+            width: 100%;
+        }
+        .icon{
+            display: flex;
+            justify-content: center;
+        }
+        i{
+            padding: 10px;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        .footer-end{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 <body>
-  <h1>gta</h1>  
+    <div class="header">
+        <nav class="navtag">
+            <a href="#home">Home</a> 
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </nav>     
+    </div>
+    <div class="main">
+        <div class="main-link">
+        <h1 align="center">PORTFOLIO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, velit? Ipsam maiores et minima corporis quibusdam excepturi dolor odit? Expedita maiores architecto blanditiis dignissimos porro autem natus perferendis iusto fugiat.</p>
+        <button>Profile</button>
+        <button>Download CV</button>
+        </div>
+        <div class="main-img">
+        <img src="pexels-moh-adbelghaffar-771742.jpg" alt="" height="550px" width="500px">
+        </div>
+    </div>
+    <div class="footer">
+        <h2 align="center">About us</h2>
+       <div class="icon">
+        <i class="fa-brands fa-instagram" style="color: #f5f5f5;"></i>
+        <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+       <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+       </div>
+       <div class="footer-end">
+        <div>
+            <h3 class="h">CONTECT INFROMATION</h3>
+            <ul>
+            <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>omanshukla@gmail.com</li>
+            <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> +1234234745</li>
+            <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Sector 56 Chandigarh ,India</li>
+            </ul>
+
+        </div>
+        <div>
+            
+            <h3 class="h">TECHNICAL SKILL</h3>
+            <ul>
+                <li>java</li>
+                <li>python</li>
+                <li>Html</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+
+       </div>
+    </div>
 </body>
 </html>
